@@ -1,3 +1,13 @@
 # File Metadata Microservice
 
-This is the boilerplate for the File Metadata Microservice project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/file-metadata-microservice
+# upload file using multer package
+
+# after uploading, use fileRoutes to handle '/api/fileanalyse'
+return details as json objects:
+{
+    name: ,
+    type: ,
+    size: ,
+}
+
+# using moogose build model 'File'
